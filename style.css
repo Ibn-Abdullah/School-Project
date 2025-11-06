@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #f9f9f9;
+	background-color: #fff3e0;
 	color: #222;
 	line-height: 1.8;
 	padding-top: 80px;
@@ -168,7 +168,6 @@ h1 {
 	margin-top: 12px;
 	font-weight: bold;
 	transition: 0.3s;
-
 }
 
 .card a:hover {
@@ -176,66 +175,58 @@ h1 {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.facts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 89vh;
+  background-color: #ebc79a;
+  padding: 60px 40px;
+}
+
+.cards-f {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.card-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: beige;
+  border: 3px solid #000;
+  border-radius: 12px;
+  padding: 20px;
+  gap: 20px;
+  transition: all 0.3s;
+}
 
 
+.card-f:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.card-f .ico {
+  width: 70px;
+  height: 70px;
+}
 
+.card-f p {
+  flex: 1;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-f .photo {
+  width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
 /* HAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHA */
 
